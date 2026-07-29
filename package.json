@@ -1,5 +1,5 @@
 {
-  "name": "inkwell",
+  "name": "pensivo",
   "version": "1.0.0",
   "description": "A modern, beautiful notes app for developers and writers",
   "main": "main.js",
@@ -12,17 +12,17 @@
     "start": "electron .",
     "pack": "vite build && electron-builder --dir"
   },
-  "keywords": ["notes", "editor", "markdown", "notepad", "inkwell"],
+  "keywords": ["notes", "editor", "markdown", "notepad", "pensivo"],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/inkwell"
+    "url": "https://github.com/yourusername/pensivo"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/inkwell/issues"
+    "url": "https://github.com/yourusername/pensivo/issues"
   },
-  "homepage": "https://yourusername.github.io/inkwell",
+  "homepage": "https://yourusername.github.io/pensivo",
   "type": "commonjs",
   "dependencies": {
     "@codemirror/lang-css": "^6.3.1",
@@ -49,8 +49,8 @@
     "wait-on": "^9.1.0"
   },
   "build": {
-    "appId": "com.inkwell.app",
-    "productName": "Inkwell",
+    "appId": "com.pensivo.app",
+    "productName": "Pensivo",
     "directories": {
       "output": "release"
     },
@@ -75,7 +75,7 @@
       "createDesktopShortcut": true
     },
     "portable": {
-      "artifactName": "Inkwell-Portable-${version}.exe"
+      "artifactName": "Pensivo-Portable-${version}.exe"
     }
   }
 }

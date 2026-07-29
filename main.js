@@ -109,10 +109,10 @@ function createWindow() {
       label: 'Help',
       submenu: [
         {
-          label: 'About Inkwell',
+          label: 'About Pensivo',
           click: () => {
             dialog.showMessageBox(mainWindow, {
-              type: 'info', title: 'About Inkwell', message: 'Inkwell',
+              type: 'info', title: 'About Pensivo', message: 'Pensivo',
               detail: `Version ${app.getVersion()}\n\nA hybrid notes app.\nBuilt with Electron + React + CodeMirror 6.`,
             });
           },

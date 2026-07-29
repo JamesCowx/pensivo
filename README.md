@@ -4,7 +4,7 @@
   </svg>
 </p>
 
-<h1 align="center">Inkwell</h1>
+<h1 align="center">Pensivo</h1>
 
 <p align="center">
   <strong>A modern, beautiful notes app for developers and writers.</strong>
@@ -49,9 +49,9 @@ Get the latest release for your platform:
 
 | Platform | Installer | Portable |
 |---|---|---|
-| **Windows** | [Inkwell-Setup-1.0.0.exe](https://github.com/yourusername/inkwell/releases/latest) | [Inkwell-Portable-1.0.0.exe](https://github.com/yourusername/inkwell/releases/latest) |
-| **macOS** | [Inkwell-1.0.0.dmg](https://github.com/yourusername/inkwell/releases/latest) | — |
-| **Linux** | [Inkwell-1.0.0.AppImage](https://github.com/yourusername/inkwell/releases/latest) | [Inkwell-1.0.0.tar.gz](https://github.com/yourusername/inkwell/releases/latest) |
+| **Windows** | [Pensivo-Setup-1.0.0.exe](https://github.com/yourusername/pensivo/releases/latest) | [Pensivo-Portable-1.0.0.exe](https://github.com/yourusername/pensivo/releases/latest) |
+| **macOS** | [Pensivo-1.0.0.dmg](https://github.com/yourusername/pensivo/releases/latest) | — |
+| **Linux** | [Pensivo-1.0.0.AppImage](https://github.com/yourusername/pensivo/releases/latest) | [Pensivo-1.0.0.tar.gz](https://github.com/yourusername/pensivo/releases/latest) |
 
 > ⚡ **Portable version** requires no installation — just download and run.
 
@@ -111,7 +111,7 @@ Get the latest release for your platform:
 
 ### Data Flow
 
-1. **Session persistence**: Tab content and metadata are serialized to `session.json` in the user's app data directory (`%APPDATA%/inkwell/`). Auto-save triggers every 2 seconds after changes, ensuring recovery on restart.
+1. **Session persistence**: Tab content and metadata are serialized to `session.json` in the user's app data directory (`%APPDATA%/pensivo/`). Auto-save triggers every 2 seconds after changes, ensuring recovery on restart.
 
 2. **File operations**: Opening and saving files uses the native OS dialogs via Electron IPC. File paths are tracked per tab; saving an untitled file prompts the "Save As" dialog.
 
@@ -133,8 +133,8 @@ Get the latest release for your platform:
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/inkwell.git
-cd inkwell
+git clone https://github.com/yourusername/pensivo.git
+cd pensivo
 npm install
 ```
 
@@ -169,7 +169,7 @@ This starts Vite's dev server (hot module reload) and launches the Electron wind
 npm run build
 ```
 
-Output: `release/Inkwell Setup 1.0.0.exe` (installer) + `release/Inkwell-Portable-1.0.0.exe` (portable)
+Output: `release/Pensivo Setup 1.0.0.exe` (installer) + `release/Pensivo-Portable-1.0.0.exe` (portable)
 
 ### macOS
 
@@ -194,7 +194,7 @@ npm run pack
 ## Project Structure
 
 ```
-inkwell/
+pensivo/
 ├── main.js                 # Electron main process
 ├── preload.js              # Context bridge (secure IPC)
 ├── vite.config.js          # Vite bundler config
@@ -221,13 +221,13 @@ inkwell/
 
 ## Configuration
 
-Inkwell stores its data in the standard OS user data directory:
+Pensivo stores its data in the standard OS user data directory:
 
 | OS | Path |
 |---|---|
-| Windows | `%APPDATA%/inkwell/` |
-| macOS | `~/Library/Application Support/inkwell/` |
-| Linux | `~/.config/inkwell/` |
+| Windows | `%APPDATA%/pensivo/` |
+| macOS | `~/Library/Application Support/pensivo/` |
+| Linux | `~/.config/pensivo/` |
 
 Files:
 

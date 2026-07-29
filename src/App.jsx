@@ -71,7 +71,7 @@ function Titlebar({ isMaximized }) {
           <path d="M12 20h9" />
           <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
         </svg>
-        <span className="titlebar-title">Inkwell</span>
+        <span className="titlebar-title">Pensivo</span>
       </div>
       <div className="titlebar-controls">
         <button className="titlebar-btn" onClick={handleMinimize} aria-label="Minimize">
@@ -153,7 +153,7 @@ function App() {
       }
       if (!restored) {
         const tab = createNewTab(
-          '# Welcome to Inkwell\n\nA modern hybrid notes app for developers and writers.\n\n## Quick Start\n- **Ctrl+N** New note\n- **Ctrl+O** Open file\n- **Ctrl+S** Save\n- **Ctrl+W** Close tab'
+          '# Welcome to Pensivo\n\nA modern hybrid notes app for developers and writers.\n\n## Quick Start\n- **Ctrl+N** New note\n- **Ctrl+O** Open file\n- **Ctrl+S** Save\n- **Ctrl+W** Close tab'
         );
         setTabs([tab]);
         setActiveTabId(tab.id);
