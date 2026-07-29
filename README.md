@@ -49,9 +49,9 @@ Get the latest release for your platform:
 
 | Platform | Installer | Portable |
 |---|---|---|
-| **Windows** | [Pensivo-Setup-1.0.0.exe](https://github.com/yourusername/pensivo/releases/latest) | [Pensivo-Portable-1.0.0.exe](https://github.com/yourusername/pensivo/releases/latest) |
-| **macOS** | [Pensivo-1.0.0.dmg](https://github.com/yourusername/pensivo/releases/latest) | — |
-| **Linux** | [Pensivo-1.0.0.AppImage](https://github.com/yourusername/pensivo/releases/latest) | [Pensivo-1.0.0.tar.gz](https://github.com/yourusername/pensivo/releases/latest) |
+| **Windows** | [Pensivo-Setup-1.0.0.exe](https://github.com/JamesCowx/pensivo/releases/latest) | [Pensivo-Portable-1.0.0.exe](https://github.com/JamesCowx/pensivo/releases/latest) |
+| **macOS** | [Pensivo-1.0.0.dmg](https://github.com/JamesCowx/pensivo/releases/latest) | — |
+| **Linux** | [Pensivo-1.0.0.AppImage](https://github.com/JamesCowx/pensivo/releases/latest) | [Pensivo-1.0.0.tar.gz](https://github.com/JamesCowx/pensivo/releases/latest) |
 
 > ⚡ **Portable version** requires no installation — just download and run.
 
@@ -133,7 +133,7 @@ Get the latest release for your platform:
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/pensivo.git
+git clone https://github.com/JamesCowx/pensivo.git
 cd pensivo
 npm install
 ```

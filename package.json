@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pensivo"
+    "url": "https://github.com/JamesCowx/pensivo"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/pensivo/issues"
+    "url": "https://github.com/JamesCowx/pensivo/issues"
   },
-  "homepage": "https://yourusername.github.io/pensivo",
+  "homepage": "https://JamesCowx.github.io/pensivo",
   "type": "commonjs",
   "dependencies": {
     "@codemirror/lang-css": "^6.3.1",
