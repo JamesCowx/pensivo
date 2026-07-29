@@ -72,7 +72,8 @@
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
       "deleteAppDataOnUninstall": false,
-      "createDesktopShortcut": true
+      "createDesktopShortcut": true,
+      "artifactName": "Pensivo-Setup-${version}.exe"
     },
     "portable": {
       "artifactName": "Pensivo-Portable-${version}.exe"
