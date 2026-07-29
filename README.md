@@ -185,8 +185,8 @@
 
 | | |
 |---|---|
-| [![Windows Installer](https://img.shields.io/badge/Windows_Installer-6c8cff?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c1c26)](https://github.com/JamesCowx/pensivo/releases/latest/download/Pensivo-Setup-1.0.0.exe) | Standard NSIS installer. Start Menu shortcut, uninstaller, the works. |
-| [![Windows Portable](https://img.shields.io/badge/Windows_Portable-a277ff?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c1c26)](https://github.com/JamesCowx/pensivo/releases/latest/download/Pensivo-Portable-1.0.0.exe) | Single `.exe`. No install. No registry. Run it from a USB stick. |
+| [![Windows Installer](https://img.shields.io/badge/Windows_Installer-6c8cff?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c1c26)](https://github.com/JamesCowx/pensivo/releases/latest) | Standard NSIS installer. Start Menu shortcut, uninstaller, the works. |
+| [![Windows Portable](https://img.shields.io/badge/Windows_Portable-a277ff?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c1c26)](https://github.com/JamesCowx/pensivo/releases/latest) | Single `.exe`. No install. No registry. Run it from a USB stick. |
 | [![Build from Source](https://img.shields.io/badge/Build_from_Source-8b949e?style=for-the-badge&logo=github&logoColor=white&labelColor=1c1c26)](#-build-from-source) | Clone, `npm install`, `npm run build`. |
 
 </div>
